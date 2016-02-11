@@ -1,0 +1,204 @@
+/* CSS */
+
+body {
+	background-color: white;
+	font-family: myFont, sans-serif;
+	max-width: 1650px;
+	margin: 0 auto;
+}
+
+@font-face {
+	font-family: myFont;
+	src: url(JosefinSans-Regular.ttf);
+}
+
+h1 {
+	font-size: 80px;
+	color: black;
+	text-align: center;
+}
+
+h3 {
+	color:#fab483;
+	font-size: 60px;
+}
+
+p {
+	font-size: 30px;
+}
+
+nav {
+	width: 100%;
+	position: relative;
+	left: 12%;
+}
+
+nav a {
+	display: inline-block;
+	color: black;
+	text-decoration: none;
+}
+nav a:visited {
+	text-decoration: none;
+	color: #59544F;
+}
+nav a:hover {
+	text-decoration: none;
+	color: #fab483;
+}
+
+nav a img, nav a p {
+	max-width: 175px;
+	position: relative;
+}
+nav p{
+	text-align: center;
+}
+
+nav img {
+	margin: 0 auto;
+}
+
+#warning {
+	background-color: #FFDEA9;
+	font-size: 30px;
+	min-height: 200px;
+}
+
+#warning p, #warning table {
+	position: relative;
+}
+
+#warning p {
+	margin: 0 auto;
+	max-width: 400px;
+	text-indent: 40px;
+	float: left;
+	font-size: .9em;
+	left: 15%;
+	margin-top: 2%;
+}
+
+#warning table {
+	left: 15%;
+}
+
+#warning th, td {
+	margin: 0 auto;
+	border: 1px solid white;
+	background-color: #f2f2f2;
+	width: 200px;
+	height: 80px;
+	text-align: center;
+	font-size: 0.8em;
+}
+
+#warningimg {
+	position: absolute;
+	padding-left: 3.33%;
+	padding-top: 0.36%;
+}
+
+#description {
+	background-color: #FFDE73;
+	color: black;
+	font-size: 30px;
+	height: 600px;
+}
+
+#footer {
+	width: 100%;
+	height: 170px;
+	background-color: #F4EE7A;
+}
+
+#oval img {
+	width: 100%;
+	height: 100%;
+}
+
+ #description h3 {
+ 	text-align: center;
+	width: 80%;
+	position: absolute;
+	top: 1065px;
+	left: 10%;
+ }
+
+#description p {
+	text-align: center;
+	width: 80%;
+	position: absolute;
+	top: 1215px;
+	left: 10%;
+}
+
+ #banner img { 
+ 	width: 100%;
+ 	height: 50%;
+ 	margin-top: 5px;
+ }
+
+ ul {
+ 	list-style-type: none;
+ 	font-size: 1.5em;
+ }
+
+ #rs {
+ 	width: 50%;
+ 	float: left;
+ 	background-color: #FFDE73;
+ 	margin: 0 auto;
+ 	height: 990px;
+ }
+
+ #st {
+ 	width: 50%;
+ 	float: left;
+ 	margin: 0 auto;
+ 	min-height: 500px;
+ 	height: 990px;
+ }
+
+ #wrapper {
+ 	display: inline-block;
+ 	clear: both;
+ 	margin: 0 auto;
+ 	background-color: #f4ee7a;
+ 	padding: 5px;
+ }
+
+#symptomsimg {
+	margin: 0 auto;
+	padding: 10px;
+}
+
+#nav1 {
+	margin: 0 10%;
+	position: absolute;
+	margin-top: 5%;
+	width: 400px;
+	height: 400px;
+}
+
+#nav2 {
+	margin: 0 45%;
+	position: absolute;
+	margin-top: 5%;
+	width: 400px;
+	height: 400px;
+}
+
+h4 {
+	font-size: 40px;
+	color:#fab483;
+}
+
+#onPage p {
+	position: relative;
+	float: left;
+}
+
+table a {
+	text-decoration: none;
+	color: black;
